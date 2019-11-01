@@ -32,6 +32,7 @@ module.exports = {
             });
         })
     },
+    
     signup: (id, pwd, name, address) => {
         return new Promise((resolve, reject) => {
             // 아이디 중복 체크
